@@ -3,7 +3,7 @@ const newTaskInput = document.getElementById('new-task-input');
 const taskList = document.getElementById('task-list'); 
 
 let tasks = []; 
-let taskId = 0; 
+
 
 addTaskButton.addEventListener('click', () => { 
     const taskText = newTaskInput.value.trim(); 
